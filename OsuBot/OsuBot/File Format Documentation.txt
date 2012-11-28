@@ -1,0 +1,43 @@
+0:681
+
+Osu Unofficial File Format Documentation
+All Time is in milliseconds
+
+
+*****Timing Points*****
+Header: [TimingPoints]
+Format:
+unknown, Milliseconds Per Beat, unknown, unknown, unknown, unknown, unknown, unknown
+Example:
+7227.47058823529,100,4,1,0,100,1,0
+
+
+*****Objects*****
+Header: [HitObjects]
+Object Type:
+1 = Beat Circle
+2 = Slider
+
+===Beat Circle===
+Format:
+X,Y, Time, Object Type, unknown
+Example:
+0,0,95,1,0
+
+===Spinner===
+Format:
+unknown, unknown, Time Start, unknown, unknown, Time End
+
+Example:
+256,192,95,12,0,635
+
+
+===Slider===
+Format:
+X, Y, Time Start, Object Type, unknown, B|X:Y, Times to use (2 = repeat once, 3 = repeat twice, etc), unknown
+
+B|X:Y
+Angle point
+
+Example:
+0,0,95,2,0,B|160:0,1,140

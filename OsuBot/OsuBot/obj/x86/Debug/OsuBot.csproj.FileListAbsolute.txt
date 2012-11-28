@@ -1,0 +1,5 @@
+C:\Users\Austech\Documents\Visual Studio 2010\Projects\OsuBot\OsuBot\bin\Debug\OsuBot.exe
+C:\Users\Austech\Documents\Visual Studio 2010\Projects\OsuBot\OsuBot\bin\Debug\OsuBot.pdb
+C:\Users\Austech\Documents\Visual Studio 2010\Projects\OsuBot\OsuBot\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Austech\Documents\Visual Studio 2010\Projects\OsuBot\OsuBot\obj\x86\Debug\OsuBot.exe
+C:\Users\Austech\Documents\Visual Studio 2010\Projects\OsuBot\OsuBot\obj\x86\Debug\OsuBot.pdb
